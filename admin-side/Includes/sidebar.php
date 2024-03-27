@@ -11,7 +11,7 @@
             
         </button><!-- navbar-toggle finish -->
         
-        <a href="index.php?dashboard" class="navbar-brand fs-2 fw-bold text-uppercase" style="margin-top: 7px; margin-left: 50px; color: #fff" >BBM Auto Parts and Services</a>
+        <a href="index.php?dashboard" class="navbar-brand fs-2 fw-bold text-uppercase" style="margin-top: 7px; margin-left: 50px; color: #fff" >LK Industrial</a>
     </div><!-- navbar-header finish -->
 
     <ul class="nav navbar-right top-nav"><!-- nav navbar-right top-nav Start --> 
@@ -121,10 +121,10 @@
                 
                 <ul id="products" class="collapse"><!-- collapse Start -->
                     <li><!-- li Start -->
-                        <a href="index.php?insert_parts"> Insert Car Part </a>
+                        <a href="index.php?insert_parts"> Insert Product </a>
                     </li><!-- li finish -->
                     <li><!-- li Start -->
-                        <a href="index.php?view_parts"> View Car Parts </a>
+                        <a href="index.php?view_parts"> View Product </a>
                     </li><!-- li finish -->
                 </ul><!-- collapse finish -->
                 
@@ -133,17 +133,17 @@
             <li><!-- li Start -->
                 <a href="#" data-toggle="collapse" data-target="#p_cat"><!-- a href Start -->
                         
-                        <i class="fa fa-fw fa-edit"></i> Parts Categories
+                        <i class="fa fa-fw fa-edit"></i> Product Categories
                         <i class="fa fa-fw fa-caret-down"></i>
                         
                 </a><!-- a href finish -->
                 
                 <ul id="p_cat" class="collapse"><!-- collapse Start -->
                     <li><!-- li Start -->
-                        <a href="index.php?insert_cat"> Insert Parts Categories </a>
+                        <a href="index.php?insert_cat"> Insert Product Categories </a>
                     </li><!-- li finish -->
                     <li><!-- li Start -->
-                        <a href="index.php?view_cats"> View Parts Categories </a>
+                        <a href="index.php?view_cats"> View Product Categories </a>
                     </li><!-- li finish -->
                 </ul><!-- collapse finish -->
                 

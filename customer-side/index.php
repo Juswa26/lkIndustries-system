@@ -7,9 +7,9 @@
  		<div class="container">
  			<div class="row">
  				<div class="col col-text">
- 					<h1><strong>BBM Auto Parts and Services:</strong></h1>
- 					<h2>Where Your Car’s Health Comes First</h2>
- 					<a href="services.php" class="btn1">Book us</a>
+ 					<h1><strong>LK Industrial</strong></h1>
+ 					<h2>"Quality means doing it right when no one is looking." </h2>
+ 					<a href="parts.php" class="btn1">Shop Now</a>
  				</div>
  				<div class="col col-img home-parallax" data-speed="5"></div>
  			</div>
@@ -97,7 +97,7 @@
 	 			<div class="featured-wrapper2">
 	 				<div class="featured-wrapper-box">
 	 					<div class="box active">
-	 						<img src="img/part.jpg" alt="">
+	 						<img src="img/m1.jpg" alt="">
 	 						<h3>new model 1</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -111,7 +111,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/part.jpg" alt="">
+	 						<img src="img/m2.jpg" alt="">
 	 						<h3>new model 2</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -125,7 +125,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/part.jpg" alt="">
+	 						<img src="img/m3.jpg" alt="">
 	 						<h3>new model 3</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -139,7 +139,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/part.jpg" alt="">
+	 						<img src="img/m4.jpg" alt="">
 	 						<h3>new model 4</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -153,7 +153,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/part.jpg" alt="">
+	 						<img src="img/m5.jpg" alt="">
 	 						<h3>new model 5</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -203,13 +203,13 @@
  		<h1 class="heading2">About <span>us</span></h1>
  		<div class="row">
  			<div class="col-img">
- 				<img src="img/logo2.png">
+ 				<img src="img/lk.jpg">
  			</div>
  			<div class="col-text">
  				<h2 class="mt-3">Who we are</h2>
- 				<p><span>Shop Owner:</span> Mr. Ron Karlo B. Yabut</p>
+ 				<p><span>Shop Owner:</span> Sponge Bob</p>
  				<p>
- 					BBM Auto Parts and Services, first known as BBM Surplus and Services, started before the worldwide pandemic. The company was all about bringing in top-notch car parts mainly from Japan, a task made easier with the help of their family and partners abroad. The word 'Surplus' in their original name meant they could buy parts at a lower price and sell them for less in the Philippines. Their goal was always to make a fair profit while keeping their prices competitive. This has made them a more affordable option compared to other local auto part businesses. Even with the difficulties of the pandemic, BBM Auto Parts and Services stays focused on offering great value and top quality.
+ 					I love Craby Patty (DESRIPTION ABT BUSINESS)
  				</p>
  			</div>
  		</div>
@@ -232,14 +232,14 @@
  				<div class="con">
  				<h4>Contacts</h4>
  				<ul class="contacts">
- 					<li><a href="#"><i class="fa-solid fa-phone" style="color: #000;"></i>&nbsp; +6391 5470 2200</a>
+ 					<li><a href="#"><i class="fa-solid fa-phone" style="color: #000;"></i>&nbsp; 0917 704 9843</a>
  					</li>
- 					<li><a href="#"><i class="fa-solid fa-envelope" style="color: #000;"></i>&nbsp; Bbmautoparts&services@gmail.com</a></li>
+ 					<li><a href="#"><i class="fa-solid fa-envelope" style="color: #000;"></i>&nbsp; lkindustrial64@gmail.com</a></li>
  				</ul>
  				
  				<h4>Social Media</h4>
  				<ul>
- 					<li><a href="#"><i class="fa-brands fa-facebook" style="color: #000;"></i>Facebook</a></li>
+ 					<li><a href="https://www.facebook.com/ELKEIINDUSTRIAL"><i class="fa-brands fa-facebook" style="color: #000;"></i>Facebook</a></li>
  					<li><a href="#"><i class="fa-brands fa-twitter" style="color: #000;"></i>Twitter</a></li>
  					<li><a href="#"><i class="fa-brands fa-instagram" style="color: #000;"></i>Instagram</a></li>
  				</ul>

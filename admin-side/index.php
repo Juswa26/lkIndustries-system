@@ -43,9 +43,7 @@
       $run_service = mysqli_query($con,$get_service);
       $count_service = mysqli_num_rows($run_service);
 
-      $get_rewards = "select * from rewards";
-      $run_rewards = mysqli_query($con,$get_rewards);
-
+      
 
       $get_admin = "select * from admin_users";
       $run_admin = mysqli_query($con,$get_admin);

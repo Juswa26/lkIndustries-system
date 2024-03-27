@@ -37,12 +37,12 @@
 	<header class="header">
 
 		<div id="menubar" class="fa-solid fa-bars"></div>
-		<a href="index.php" class="logo"><img src="img/logo.jpg" alt=""></a>
+		<a href="index.php" class="logo"><img src="img/LK.png" alt=""></a>
 
 		<nav class="navbar">
 			<a href="index.php" class="nav-link">Home</a>
 			<a href="services.php" class="nav-link">Services</a>
-			<a href="parts.php" class="nav-link">Car Parts</a>
+			<a href="parts.php" class="nav-link">Products</a>
 			<a href="#about-us" class="nav-link">About Us</a>
 			<a href="#contact" class="nav-link">Contact</a>
 		</nav>
