@@ -355,7 +355,7 @@ section{
 }
 
 
-/* Home Section 
+/* Home Section */
 
 .home{
 	padding-top: 20rem;
@@ -365,8 +365,8 @@ section{
 	position: relative;
 	padding-bottom: 19.8rem;
 	height: 73rem;
-	background-image: url(../img/);
-	background-size: 60% 60%;
+	background-image: url(../img/LK.png);
+	background-size: 40% 40%;
 	background-position: right;
 	background-repeat: no-repeat;
 }

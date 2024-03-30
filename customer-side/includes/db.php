@@ -1,5 +1,5 @@
 <?php
 	
-	$con = mysqli_connect("localhost", "root", "", "auto-shop");
+	$con = mysqli_connect("localhost", "root", "", "auto_shop");
 
 ?>
