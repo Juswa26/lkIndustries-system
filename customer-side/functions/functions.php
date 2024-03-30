@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$con = mysqli_connect("localhost", "root", "", "auto_shop");
+$con = mysqli_connect("localhost", "root", "", "auto-shop");
   if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
   }

@@ -25,7 +25,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Auto Shop</title>
+	<title>LK Industrial</title>
 
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap-337.min.css">
 	<link rel="stylesheet" type="text/css" href="font-awsome/css/font-awesome.min.css">
