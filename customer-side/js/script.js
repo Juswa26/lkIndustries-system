@@ -59,23 +59,7 @@ document.querySelector('#close-reg-btn').onclick = () =>{
 
 // home section
 
-document.querySelector('.home').onmousemove = (e) =>{
-	document.querySelectorAll('.home-parallax').forEach(element =>{
-		let speed = element.getAttribute('data-speed');
 
-		let x= (window.innerWidth - e.pageX * speed) / 90;
-		let y = (window.innerHeight - e.pageY * speed) / 90;
-
-		element.style.transform = `translateX(${y}px) translateY(${x}px)`;
-	})
-}
-
-document.querySelector('.home').onmouseleave = (e) =>{
-	document.querySelectorAll('.home-parallax').forEach(element =>{
-
-		element.style.transform = `translateX(0px) translateY(0px)`;
-	})
-}
 
 // featured section
 

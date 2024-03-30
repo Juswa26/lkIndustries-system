@@ -175,6 +175,7 @@
     </div><!-- col-lg-3 col-md-6 finish -->
 </div><!-- row no: 2 finish -->
 
+<!-- Dashboard Graph
 <div class="row">
   <div class="col-md-9 mb-3">
     <div class="card h-100">
@@ -182,9 +183,15 @@
         <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span>
         Sales Analytics
       </div>
+
+
+
       <div class="card-body">
         <canvas class="chart" width="400" height="200"></canvas>
       </div>
+-->
+
+
     </div>
   </div>
   <div class="col-md-3 mb-3">
@@ -196,7 +203,7 @@
       <div class="card-body">
          <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
           <li class="nav-item fs-3" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Car Parts</button>
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Products</button>
           </li>
           <li class="nav-item fs-3" role="presentation">
             <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Services</button>

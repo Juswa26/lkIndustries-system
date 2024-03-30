@@ -13,7 +13,7 @@ include("includes/header.php");
 		<div class="card part-card">
 		    <ul class="breadcrumb">
 		    	<li><a href="index.php">Home</a></li>
-		    	<li>Car Parts</li>
+		    	<li>Industrial Products</li>
 		    </ul>
 		</div>
 
@@ -22,7 +22,7 @@ include("includes/header.php");
 		<div class="col side-col">
 			<div class="card side-card mt-5" style="width: 25rem;">
 				<div class="card-header fs-3">
-				    Car Parts Category
+				    Products Category
 				 </div>
 				<div class="card-body">
 					<form class="d-flex mb-3">
@@ -30,12 +30,11 @@ include("includes/header.php");
 				        <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #000;"></i></button>
 				    </form>
 					<ul class="list-group fs-4">
-					    <a href="?category=Interior"><li class="list-group-item list-group-item-action <?php echo $category === 'Interior' ? 'active' : ''; ?>">Interior</li></a>
-					    <a href="?category=Exterior"><li class="list-group-item list-group-item-action <?php echo $category === 'Exterior' ? 'active' : ''; ?>">Exterior</li></a>
-					    <a href="?category=SuspensionAndBrakes"><li class="list-group-item list-group-item-action <?php echo $category === 'SuspensionAndBrakes' ? 'active' : ''; ?>">Suspension And Brakes</li></a>
-					    <a href="?category=Mags"><li class="list-group-item list-group-item-action <?php echo $category === 'Mags' ? 'active' : ''; ?>">Mags</li></a>
-					    <a href="?category=EngineParts"><li class="list-group-item list-group-item-action <?php echo $category === 'EngineParts' ? 'active' : ''; ?>">Engine Parts</li></a>
-					    <a href="?category=Maintenance"><li class="list-group-item list-group-item-action <?php echo $category === 'Maintenance' ? 'active' : ''; ?>">Maintenance</li></a>
+					    <a href="?category=Interior"><li class="list-group-item list-group-item-action <?php echo $category === 'Interior' ? 'active' : ''; ?>">Machinery</li></a>
+					    <a href="?category=Exterior"><li class="list-group-item list-group-item-action <?php echo $category === 'Exterior' ? 'active' : ''; ?>">Accessory Equipments</li></a>
+					    <a href="?category=SuspensionAndBrakes"><li class="list-group-item list-group-item-action <?php echo $category === 'SuspensionAndBrakes' ? 'active' : ''; ?>">Components Parts</li></a>
+					    <a href="?category=EngineParts"><li class="list-group-item list-group-item-action <?php echo $category === 'EngineParts' ? 'active' : ''; ?>">Operating Supplies</li></a>
+					    <a href="?category=Maintenance"><li class="list-group-item list-group-item-action <?php echo $category === 'Maintenance' ? 'active' : ''; ?>">Processed Materials</li></a>
 					</ul>
 				</div>
 			</div>		

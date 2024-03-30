@@ -41,10 +41,12 @@
 
 		<nav class="navbar">
 			<a href="index.php" class="nav-link">Home</a>
+<!-- ADD ON 
 			<a href="services.php" class="nav-link">Services</a>
+ -->
 			<a href="parts.php" class="nav-link">Products</a>
-			<a href="#about-us" class="nav-link">About Us</a>
-			<a href="#contact" class="nav-link">Contact</a>
+			<a href="index.php#about-us" class="nav-link">About Us</a>
+			<a href="index.php#contact" class="nav-link">Contact</a>
 		</nav>
 
         <?php if($is_logged_in): ?>

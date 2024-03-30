@@ -17,7 +17,7 @@
  	</section>
  	<!-- Home Section End -->
 
- 	<!-- Services Secion Start -->
+ 	<!-- Services Secion Start 
  	<section class="services" id="services">
 
  		<h1 class="heading2">our <span>services</span></h1>
@@ -79,7 +79,7 @@
 	 		</div>
 	 	</div>
  	</section>
- 	<!-- Services Secion End -->
+ 	Services Secion End -->
 
 
 
@@ -97,7 +97,7 @@
 	 			<div class="featured-wrapper2">
 	 				<div class="featured-wrapper-box">
 	 					<div class="box active">
-	 						<img src="img/m1.jpg" alt="">
+	 						<img src="img/cparts/m1.jpg" alt="">
 	 						<h3>new model 1</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -111,7 +111,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/m2.jpg" alt="">
+	 						<img src="img/cparts/m2.jpg" alt="">
 	 						<h3>new model 2</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -125,7 +125,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/m3.jpg" alt="">
+	 						<img src="img/cparts/m3.jpg" alt="">
 	 						<h3>new model 3</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -139,7 +139,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/m4.jpg" alt="">
+	 						<img src="img/cparts/m4.jpg" alt="">
 	 						<h3>new model 4</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -153,7 +153,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/m5.jpg" alt="">
+	 						<img src="img/cparts/m5.jpg" alt="">
 	 						<h3>new model 5</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -167,7 +167,7 @@
 	 					</div>
 
 	 					<div class="box ">
-	 						<img src="img/part.jpg" alt="">
+	 						<img src="img/cparts/m5.jpg" alt="">
 	 						<h3>new model 6</h3>
 	 						<div class="stars">
 	 							<i class="fa-solid fa-star" style="color: #000000;"></i>
@@ -177,6 +177,7 @@
 	 							<i class="fa-solid fa-star-half-stroke" style="color: #000000;"></i>
 	 						</div>
 	 						<div class="price">Php 000.00</div>
+							
 	 						<a href="#" class="btn1"
 >Check Out</a>
 	 					</div>

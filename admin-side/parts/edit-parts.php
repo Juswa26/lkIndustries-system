@@ -92,13 +92,12 @@
                       <div class="col-md-6">
                           <select name="cpart_cat" class="form-control" required>
                               <option value="" disabled <?php if(empty($cpart_category)) echo "selected"; ?>>Select Category</option>
-                              <option value="Engine" <?php if($cpart_category == 'Engine') echo "selected"; ?>>Engine</option>
-                              <option value="Interior" <?php if($cpart_category == 'Interior') echo "selected"; ?>>Interior</option>
-                              <option value="Brakes & Suspension" <?php if($cpart_category == 'Brakes & Suspension') echo "selected"; ?>>Brakes & Suspension</option>
-                              <option value="Exterior" <?php if($cpart_category == 'Exterior') echo "selected"; ?>>Exterior</option>
-                              <option value="Mags" <?php if($cpart_category == 'Mags') echo "selected"; ?>>Mags</option>
-                              <option value="Maintenance" <?php if($cpart_category == 'Maintenance') echo "selected"; ?>>Maintenance</option>
-                              <option value="Others" <?php if($cpart_category == 'Others') echo "selected"; ?>>Others</option>
+                              <option value="Engine" <?php if($cpart_category == 'Engine') echo "selected"; ?>>Machinery</option>
+                              <option value="Interior" <?php if($cpart_category == 'Interior') echo "selected"; ?>>Accessory Equipments</option>
+                              <option value="Brakes & Suspension" <?php if($cpart_category == 'Brakes & Suspension') echo "selected"; ?>>Components Parts</option>
+                              <option value="Exterior" <?php if($cpart_category == 'Exterior') echo "selected"; ?>>Operating Supplies</option>
+                              <option value="Mags" <?php if($cpart_category == 'Mags') echo "selected"; ?>>Processed Materials</option>
+                              
                           </select>
                       </div>
                     </div>

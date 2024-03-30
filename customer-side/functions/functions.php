@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$con = mysqli_connect("localhost", "root", "", "auto_shop");
+$con = mysqli_connect("localhost", "root", "", "auto-shop");
   if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
   }
@@ -99,7 +99,7 @@ function sendemail_verify($name, $email, $otpCode){
 
 
 function insertOTPIntoDatabase($email, $otpCode, $otpExpiration) {
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -115,7 +115,7 @@ function insertOTPIntoDatabase($email, $otpCode, $otpExpiration) {
 }
 
 function verifyOTP($email, $enteredOTP) {
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -132,7 +132,7 @@ function verifyOTP($email, $enteredOTP) {
 }
 
 function insertUserDataIntoDatabase($name, $email, $phone, $pass) {
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -253,7 +253,7 @@ if (isset($_POST['otp-btn']) && isset($_GET["email"])) {
 
 
 function loginUser($email, $pass) {
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -304,7 +304,7 @@ if (isset($_POST['log-btn'])) {
 }
 
 function getCPCats(){
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -366,7 +366,7 @@ function getCarParts($pageNumber){
 function getPartsPagination($pageNumber, $limit){
   mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-  $con = mysqli_connect("localhost", "root", "", "auto_shop");
+  $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
       die("Connection failed: " . mysqli_connect_error());
     }
@@ -403,7 +403,7 @@ function getPartsByCategory($category = null, $pageNumber = 1) {
     $limit = 6;  // Limit number of parts displayed per page
     $start = ($pageNumber - 1) * $limit;
 
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -461,7 +461,7 @@ function getPartsByCategory($category = null, $pageNumber = 1) {
 
 function getCustomer(){
     // Connecting to the database
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -492,7 +492,7 @@ function getCustomer(){
 
 function items(){
     // Connecting to the database
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
@@ -516,7 +516,7 @@ function items(){
 
 
 function displayBookings() {
-    $con = mysqli_connect("localhost", "root", "", "auto_shop");
+    $con = mysqli_connect("localhost", "root", "", "auto-shop");
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }

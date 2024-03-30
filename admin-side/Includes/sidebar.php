@@ -45,7 +45,7 @@
                 <li><!-- li Start -->
                     <a href="index.php?view_customers"><!-- a href Start -->
                         
-                        <i class="fa fa-fw fa-users"></i> Parts Inventory
+                        <i class="fa fa-fw fa-users"></i> Product Inventory
                         
                         <span class="badge"> 99</span> <!-- li Start $count_customers; -->
                         
@@ -114,7 +114,7 @@
             <li><!-- li Start -->
                 <a href="#" data-toggle="collapse" data-target="#products"><!-- a href Start -->
                         
-                        <i class="fa fa-fw fa-tag"></i> Parts Inventory
+                        <i class="fa fa-fw fa-tag"></i> Product Inventory
                         <i class="fa fa-fw fa-caret-down"></i>
                         
                 </a><!-- a href finish -->
